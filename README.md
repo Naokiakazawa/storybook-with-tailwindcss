@@ -25,3 +25,4 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 ## References
 [zenn](https://zenn.dev/kolife01/articles/nextjs-typescript-storybook-tailwind#husky-%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97)
 [husky](https://qiita.com/mu-suke08/items/43a492fda5cd71a31506#2-husky%E3%81%AE%E5%88%9D%E6%9C%9F%E6%BA%96%E5%82%99)
+[Qiita](https://qiita.com/s-yoshida/items/179dec702abb64d9ae45)

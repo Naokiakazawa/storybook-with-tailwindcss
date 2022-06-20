@@ -1,25 +1,10 @@
 import React from 'react'
 
 interface ButtonProps {
-  /**
-   * Is this the principal call to action on the page?
-   */
   primary?: boolean
-  /**
-   * What background color to use
-   */
   backgroundColor?: string
-  /**
-   * How large should the button be?
-   */
   size?: 'small' | 'medium' | 'large'
-  /**
-   * Button contents
-   */
   label: string
-  /**
-   * Optional click handler
-   */
   onClick?: () => void
 }
 
@@ -30,8 +15,30 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
-  return (
-    <button type="button" className="text-red-500 hover:text-white hover:bg-red-400" {...props}>
+  const baseButton = 'rounded-full font-bold'
+  const sizeMode =
+    size === 'small'
+      ? 'py-1.5 px-4 text-xs'
+      : size === 'medium'
+      ? 'py-2 px-5 text-sm'
+      : size === 'large'
+      ? 'py-3 px-6 text-base'
+      : ''
+  return primary ? (
+    <button
+      type="button"
+      className={`text-red-500 hover:text-white hover:bg-red-400 ${baseButton} ${sizeMode}`}
+      {...props}
+    >
+      {label}
+    </button>
+  ) : (
+    <button
+      type="button"
+      className={`text-blue-500 hover:text-white hover:bg-blue-400 ${baseButton} ${sizeMode}`}
+      style={{ backgroundColor }}
+      {...props}
+    >
       {label}
     </button>
   )
