@@ -9274,11 +9274,6 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.13.2.tgz#01ad8802ca5b445b9c316b55e72645c13a3cd7e3"
   integrity sha512-CMtO2Uneg3SAz/d6fZ/6qbqqQHi2ynq6/KzMD/26gTkiEShCcpqFfTHgOxsE0egAq6SX3FmN4CeSqn8BzXQkJg==
 
-storybook-tailwind-dark-mode@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/storybook-tailwind-dark-mode/-/storybook-tailwind-dark-mode-1.0.12.tgz#3f9f22ce201abdc01321d8af0b0045d9b956be46"
-  integrity sha512-0/JryZmq43dT0zYawjtQAZeYdm2ejlj0yV5P7ITgNPZ75Bv0r5voI6M4h2rpSK79Snw3qmmmfxiS5OpvsLluAw==
-
 stream-browserify@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-2.0.2.tgz#87521d38a44aa7ee91ce1cd2a47df0cb49dd660b"
